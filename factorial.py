@@ -1,0 +1,12 @@
+def factorial(x):
+    #This is a recursive function to find the factorial of an integer
+"""factorial is function which is taking x as argument """
+
+    if x == 1:
+        return 1
+    else:
+        return (x * factorial(x-1))
+
+
+num = 9
+print("The factorial of", num, "is", factorial(num))
